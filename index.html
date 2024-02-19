@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanawinPages</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+    $("#header").load("header.html"); 
+    $("#footer").load("footer.html"); 
+    });
+    </script> 
+</head>
+<body>
+    <div id="header"></div>
+    <section class="content-section" style="background-color: black;">
+        <div class="content-container" style="max-width:100%">
+            <div class="row">
+                <div class="col-6 col-s-5">
+                <div class="content-block">
+                <div>
+                    <img class="image-block" src="./image/myPic.jpg" width="50%" height="auto">
+                </div>
+                </div>
+                </div>
+                <div class="col-6 col-s-5">
+                    <div class="content-block">
+                    <p style="font-size: 200%">ธนวินท์ ล้วนพฤกษ์</p>
+                    <h2 class="white-text">นักศึกษา ชั้นปีที่ 3 </h2>
+                    <h2 class="white-text">คณะวิทยาศาสตร์และเทคโนโลยี</h2>
+                    <h2 class="white-text">สาขาวิทยาการคอมพิวเตอร์</h2>
+                    <h2 class="white-text">มหาวิทยาลัยธรรมศาสตร์</h2>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer"></div>
+</body>
+</html>
